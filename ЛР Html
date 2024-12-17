@@ -1,0 +1,173 @@
+<!-- Главная страница (index.html)
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в наш интернет-магазин!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="register.html">Регистрация</a></li>
+                <li><a href="login.html">Вход</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Наши услуги и товары</h2>
+            <ul>
+                <li>Книги</li>
+                <li>Электронные книги</li>
+                <li>Аудиокниги</li>
+                <li>Канцтовары</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Интернет-магазин. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+
+<!--Страница регистрации (register.html)
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Регистрация</h1>
+    </header>
+    <main>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Личные данные</legend>
+                <label for="fullname">ФИО:</label>
+                <input type="text" id="fullname" name="fullname" required>
+                
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="dob">Дата рождения:</label>
+                <input type="date" id="dob" name="dob" required>
+            </fieldset>
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Интернет-магазин. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+
+<!--Страница входа (login.html)
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Вход в аккаунт</h1>
+    </header>
+    <main>
+        <form action="#" method="POST">
+            <label for="email">Электронная почта:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Войти</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Интернет-магазин. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+
+<!--Страница контактов (contacts.html)
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Контакты</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Связаться с нами</h2>
+            <form action="#" method="POST">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Интернет-магазин. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+
+<!--Страница каталога (catalog.html)
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Каталог товаров</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Наши товары</h2>
+            <ul>
+                <li>Книга "Война и мир" - 500 рублей</li>
+                <li>Электронная книга "1984" - 300 рублей</li>
+                <li>Аудиокнига "Гарри Поттер" - 400 рублей</li>
+                <li>Канцелярские товары - от 50 рублей</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Интернет-магазин. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+
